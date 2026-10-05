@@ -1,0 +1,9 @@
+metric,dataset_1,dataset_2,n_genes,value,p_value
+pairwise_spearman,GSE289089_logFC,PRJNA1167170_logFC,191,0.337043607054285,1.86338726070542e-06
+pairwise_spearman,GSE289089_logFC,PRJNA862187_primary_SD_logFC,191,0.0792074262882337,0.276067942734753
+pairwise_spearman,PRJNA1167170_logFC,PRJNA862187_primary_SD_logFC,194,0.15392915401462,0.0321197149399428
+hallmark_gene_set_size,,,,195,
+measured_in_all_three,,,,191,
+negative_in_all_three,,,,82,
+negative_in_all_three_percent_of_complete,,,,42.9319371727749,
+negative_in_all_three_percent_of_hallmark,,,,42.0512820512821,

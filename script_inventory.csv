@@ -1,0 +1,29 @@
+script,purpose,dataset,used_for_frozen_result,status,notes
+scripts/single_cell/GSE289089_celltype_OXPHOS.R,"sample-level pseudobulk edgeR and pathway analysis",GSE289089,YES,INCLUDE,"portable copy; project root supplied as argument"
+scripts/single_cell/GSE289089_annotation_reconstruction.R,"marker and annotation evidence reconstruction",GSE289089,YES,INCLUDE,"requires frozen Seurat object"
+scripts/single_cell/final_celltype_QC_downsampling.R,"cell-type QC and downsampling sensitivity",GSE289089,YES,INCLUDE,"project root supplied as argument"
+scripts/single_cell/ISC_TA_regeneration_analysis.R,"frozen exploratory regeneration-associated summary",GSE289089,YES,INCLUDE,"does not alter primary analysis"
+scripts/PRJNA1167170/PRJNA1167170_bulk_pipeline.sh,"SRA acquisition, FASTQ conversion, QC, Salmon, and R workflow orchestration",PRJNA1167170,YES,INCLUDE,"portable repository-root resolution"
+scripts/PRJNA1167170/PRJNA1167170_tximport_edgeR_fgsea.R,"tximport, edgeR, and fgsea validation",PRJNA1167170,YES,INCLUDE,"project root supplied by pipeline"
+scripts/PRJNA862187/PRJNA862187_pipeline.sh,"gated public-read acquisition, QC, and Salmon",PRJNA862187,YES,INCLUDE,"portable repository-root resolution"
+scripts/PRJNA862187/http_range_download.py,"resumable verified ENA download helper",PRJNA862187,YES,INCLUDE,"required dependency of frozen pipeline"
+scripts/PRJNA862187/PRJNA862187_edgeR_fgsea.R,"factorial edgeR and frozen pathway analyses",PRJNA862187,YES,INCLUDE,"project root supplied as argument"
+scripts/three_dataset_validation/cross_dataset_OXPHOS_validation.R,"cross-dataset OXPHOS comparison","GSE289089; PRJNA1167170",YES,INCLUDE,"frozen validation script"
+scripts/three_dataset_validation/final_OXPHOS_concordance.R,"final OXPHOS concordance statistics","GSE289089; PRJNA1167170",YES,INCLUDE,"frozen validation script"
+scripts/three_dataset_validation/three_dataset_validation.R,"three-dataset concordance and pathway summary","GSE289089; PRJNA1167170; PRJNA862187",YES,INCLUDE,"no fourth dataset"
+scripts/dataset_search/build_dataset_search_outputs.py,"search table and selection-flow export",dataset_search,YES,INCLUDE,"portable registry and output arguments"
+scripts/figures/figure_functions.R,"shared plotting functions",all,YES,INCLUDE,"requires frozen source files named in source map"
+scripts/figures/generate_all.R,"figure-generation entry point",all,YES,INCLUDE,"sources portable figure-functions path"
+scripts/figures/Figure_1.R,"Figure 1 wrapper",GSE289089,YES,INCLUDE,
+scripts/figures/Figure_2.R,"Figure 2 wrapper",GSE289089,YES,INCLUDE,
+scripts/figures/Figure_3.R,"Figure 3 wrapper",PRJNA1167170,YES,INCLUDE,
+scripts/figures/Figure_4.R,"Figure 4 wrapper",cross_dataset,YES,INCLUDE,
+scripts/figures/Figure_5.R,"Figure 5 wrapper",all,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_1.R,"Supplementary Figure 1 wrapper",GSE289089,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_2.R,"Supplementary Figure 2 wrapper",GSE289089,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_4.R,"Supplementary Figure 4 wrapper",PRJNA1167170,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_5.R,"Supplementary Figure 5 wrapper",PRJNA862187,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_6.R,"Supplementary Figure 6 wrapper",GSE289089,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_7.R,"Supplementary Figure 7 wrapper",PRJNA862187,YES,INCLUDE,
+scripts/figures/Supplementary_Figure_8.R,"Supplementary Figure 8 wrapper",GSE289089,YES,INCLUDE,
+scripts/PRJNA1167170_single_run_qc.sh,"single-run pilot QC",PRJNA1167170,NO,EXCLUDE_EXPLORATORY,"not copied into repository package; pilot-only script"

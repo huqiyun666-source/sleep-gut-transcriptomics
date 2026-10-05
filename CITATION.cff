@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or these processed tables, please cite the associated manuscript and archived repository release."
+title: "Sleep deprivation is associated with cell-type-heterogeneous suppression of intestinal oxidative-phosphorylation transcriptional programs"
+version: 1.0.0
+type: software
+license: MIT
+authors:
+  - family-names: Hu
+    given-names: Qiyun
+    affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+  - family-names: Wang
+    given-names: Ziqi
+    affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+  - family-names: Wang
+    given-names: Weina
+    affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+  # Corresponding author
+  - family-names: Zhang
+    given-names: Hu
+    affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+    address: "318 Chaowang Road, Gongshu District"
+    city: Hangzhou
+    region: Zhejiang Province
+    post-code: "310005"
+    country: CN
+    email: 20234028@zcmu.edu.cn
+# repository-code: TO_BE_COMPLETED_AFTER_GITHUB_PUBLICATION
+# doi: TO_BE_COMPLETED_AFTER_ZENODO_ARCHIVE
+preferred-citation:
+  type: article
+  title: "Sleep deprivation is associated with cell-type-heterogeneous suppression of intestinal oxidative-phosphorylation transcriptional programs"
+  authors:
+    - family-names: Hu
+      given-names: Qiyun
+      affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+    - family-names: Wang
+      given-names: Ziqi
+      affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+    - family-names: Wang
+      given-names: Weina
+      affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+    - family-names: Zhang
+      given-names: Hu
+      affiliation: "The Second Affiliated Hospital of Zhejiang Chinese Medical University (Xinhua Hospital of Zhejiang Province), Hangzhou, Zhejiang, China"
+# Add journal, year, volume, issue, pages, and manuscript DOI only after they are confirmed.

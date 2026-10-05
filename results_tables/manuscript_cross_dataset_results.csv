@@ -1,0 +1,11 @@
+metric,estimate,p_value,numerator,denominator,total_hallmark_genes,genes_present_both,interpretation,source_file,source_locator,discrepancy_status
+Hallmark OXPHOS total genes,195,NA,NA,NA,195,191,Native-mouse Hallmark set total,results/final_mito_validation/OXPHOS_concordance_statistics.csv,n_hallmark_total,No conflict found
+Genes available in both datasets,191,NA,191,195,195,191,Genes used for correlation and direction analysis,results/final_mito_validation/OXPHOS_concordance_statistics.csv,n_present_both,No conflict found
+Spearman correlation,0.337043607,1.86338726e-06,NA,191,195,191,Positive rank concordance,results/final_mito_validation/OXPHOS_concordance_statistics.csv,metric=spearman_correlation,No conflict found
+Kendall correlation,0.236263433,1.21398932e-06,NA,191,195,191,Positive rank concordance,results/final_mito_validation/OXPHOS_concordance_statistics.csv,metric=kendall_correlation,No conflict found
+Pearson correlation,0.330991433,2.91287942e-06,NA,191,195,191,Positive linear concordance,results/final_mito_validation/OXPHOS_concordance_statistics.csv,metric=pearson_correlation,No conflict found
+Double-negative proportion,0.722513089,NA,138,191,195,191,138 genes negative in both datasets,results/final_mito_validation/OXPHOS_concordance_statistics.csv,metric=double_negative_proportion,No conflict found
+ISC leading-edge size,118,NA,118,NA,NA,NA,Current harmonized ISC leading edge,results/cross_dataset_OXPHOS/OXPHOS_leading_edge_overlap.csv,n_GSE289089,Historical pre-harmonization outputs report 106
+Bulk leading-edge size,133,NA,133,NA,NA,NA,PRJNA1167170 leading edge,results/cross_dataset_OXPHOS/OXPHOS_leading_edge_overlap.csv,n_PRJNA1167170,No conflict found
+Leading-edge overlap,90,NA,90,161,NA,NA,Shared leading-edge genes,results/cross_dataset_OXPHOS/OXPHOS_leading_edge_overlap.csv,n_overlap,Historical pre-harmonization outputs report 78
+Leading-edge Jaccard,0.559006211180124,NA,90,161,NA,NA,Intersection divided by union,results/cross_dataset_OXPHOS/OXPHOS_leading_edge_overlap.csv,Jaccard,Historical pre-harmonization outputs report 0.484472049689441

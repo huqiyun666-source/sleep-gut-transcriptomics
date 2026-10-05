@@ -1,0 +1,17 @@
+.DS_Store
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.sra
+*.rds
+*.RData
+*.tar
+*.gz
+salmon_index/
+raw/
+cache/
+tmp/
+logs/

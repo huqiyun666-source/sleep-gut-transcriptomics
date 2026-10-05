@@ -1,0 +1,79 @@
+manuscript_section,claim,number,source_file,source_row_or_field,status,notes
+Methods,"Search cutoff","2026-10-04",results/manuscript_v1/dataset_search/dataset_selection_flow.md,header,VERIFIED,
+Results,"Unique candidate studies",23,results/manuscript_v1/dataset_search/dataset_selection_flow.md,flow count,VERIFIED,
+Results,"Eligible studies",3,results/manuscript_v1/dataset_search/dataset_selection_flow.md,flow count,VERIFIED,
+Results,"Potentially eligible studies",1,results/manuscript_v1/dataset_search/dataset_selection_flow.md,flow count,VERIFIED,
+Results,"Excluded studies",19,results/manuscript_v1/dataset_search/dataset_selection_flow.md,flow count,VERIFIED,
+Methods,"Excluded non-intestinal",7,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E1 count,VERIFIED,
+Methods,"Excluded no SD/SR contrast",2,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E2 count,VERIFIED,
+Methods,"Excluded non-transcriptomic",3,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E4 count,VERIFIED,
+Methods,"Excluded inaccessible",5,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E6 count,VERIFIED,
+Methods,"Excluded unresolved labels",1,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E7 count,VERIFIED,
+Methods,"Excluded no reusable expression",1,results/manuscript_v1/dataset_search/dataset_selection_flow.md,E10 count,VERIFIED,
+Methods,"GSE289089 input cells",36043,results/manuscript_v1/GSE289089_QC_provenance.md,pre-QC total,VERIFIED_FROZEN,
+Methods,"GSE289089 post-QC cells",30580,results/manuscript_v1/GSE289089_QC_provenance.md,post-QC total,VERIFIED_FROZEN,
+Methods,"GSE289089 doublets",2909,results/manuscript_v1/GSE289089_scDblFinder_provenance.md,classification total,VERIFIED_FROZEN,
+Methods,"GSE289089 singlets",27671,results/manuscript_v1/GSE289089_scDblFinder_provenance.md,singlet total,VERIFIED_FROZEN,
+Methods,"GSE289089 clusters",18,results/manuscript_v1/GSE289089_cluster_annotation_evidence_reconstructed.csv,clusters 0-17,VERIFIED_FROZEN,
+Results,"ISC OXPHOS NES",-2.03207414856842,results/GSE289089_celltype_OXPHOS/celltype_OXPHOS_logFC_ranking.csv,ISC logFC row,VERIFIED_FROZEN,
+Results,"ISC OXPHOS FDR",2.13870876488047e-07,results/GSE289089_celltype_OXPHOS/celltype_OXPHOS_logFC_ranking.csv,ISC logFC row,VERIFIED_FROZEN,
+Results,"TA OXPHOS NES",-1.784,results/manuscript_v1/manuscript_celltype_results.csv,TA primary row,VERIFIED_FROZEN,Displayed precision
+Results,"TA OXPHOS FDR",4.33e-06,results/manuscript_v1/manuscript_celltype_results.csv,TA primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Tuft OXPHOS NES",-2.271,results/manuscript_v1/manuscript_celltype_results.csv,Tuft primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Tuft OXPHOS FDR",2.89e-11,results/manuscript_v1/manuscript_celltype_results.csv,Tuft primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Goblet OXPHOS NES",-1.507,results/manuscript_v1/manuscript_celltype_results.csv,Goblet primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Goblet OXPHOS FDR",0.00619,results/manuscript_v1/manuscript_celltype_results.csv,Goblet primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Enterocyte OXPHOS NES",-1.476,results/manuscript_v1/manuscript_celltype_results.csv,Enterocyte primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Enterocyte OXPHOS FDR",0.00276,results/manuscript_v1/manuscript_celltype_results.csv,Enterocyte primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Paneth OXPHOS NES",-1.103,results/manuscript_v1/manuscript_celltype_results.csv,Paneth primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Paneth OXPHOS FDR",0.252,results/manuscript_v1/manuscript_celltype_results.csv,Paneth primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Enteroendocrine OXPHOS NES",-0.497,results/manuscript_v1/manuscript_celltype_results.csv,Enteroendocrine primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Enteroendocrine OXPHOS FDR",1,results/manuscript_v1/manuscript_celltype_results.csv,Enteroendocrine primary row,VERIFIED_FROZEN,
+Results,"Serotonergic EC OXPHOS NES",-0.618,results/manuscript_v1/manuscript_celltype_results.csv,Serotonergic primary row,VERIFIED_FROZEN,Displayed precision
+Results,"Serotonergic EC OXPHOS FDR",1,results/manuscript_v1/manuscript_celltype_results.csv,Serotonergic primary row,VERIFIED_FROZEN,
+Results,"PRJNA1167170 sample count",8,results/PRJNA1167170_bulk/sample_metadata.csv,row count,VERIFIED_FROZEN,
+Results,"PRJNA1167170 minimum mapping rate percent",89.902,results/PRJNA1167170_bulk/salmon_qc_summary.csv,mapping_rate minimum,VERIFIED_FROZEN,Displayed precision
+Results,"PRJNA1167170 maximum mapping rate percent",95.196,results/PRJNA1167170_bulk/salmon_qc_summary.csv,mapping_rate maximum,VERIFIED_FROZEN,Displayed precision
+Results,"PRJNA1167170 OXPHOS NES",-2.56901497353724,results/PRJNA1167170_bulk/primary_OXPHOS_validation.csv,HALLMARK row,VERIFIED_FROZEN,
+Results,"PRJNA1167170 OXPHOS FDR",6.85587752728292e-15,results/PRJNA1167170_bulk/primary_OXPHOS_validation.csv,HALLMARK row,VERIFIED_FROZEN,
+Results,"PRJNA862187 sample count",12,results/PRJNA862187_validation/PRJNA862187_sample_metadata.csv,row count,VERIFIED_FROZEN,
+Methods,"PRJNA862187 samples per factorial cell",3,results/PRJNA862187_validation/PRJNA862187_sample_metadata.csv,group counts,VERIFIED_FROZEN,
+Methods,"PRJNA862187 read length",151,results/PRJNA862187_validation/pilot_qc_summary.csv,read_length_R1/R2,VERIFIED_FROZEN,Paired-end
+Methods,"PRJNA862187 minimum mapping rate percent",88.3449541029092,results/PRJNA862187_validation/salmon_qc_summary.csv,mapping_rate minimum,VERIFIED_FROZEN,
+Methods,"PRJNA862187 maximum mapping rate percent",93.0545974291379,results/PRJNA862187_validation/salmon_qc_summary.csv,mapping_rate maximum,VERIFIED_FROZEN,
+Results,"PRJNA862187 primary OXPHOS NES",-0.601616570793978,results/PRJNA862187_validation/primary_OXPHOS_validation.csv,average_SD_across_diets,VERIFIED_FROZEN,
+Results,"PRJNA862187 primary OXPHOS P",1,results/PRJNA862187_validation/primary_OXPHOS_validation.csv,average_SD_across_diets,VERIFIED_FROZEN,
+Results,"PRJNA862187 primary OXPHOS FDR",1,results/PRJNA862187_validation/primary_OXPHOS_validation.csv,average_SD_across_diets,VERIFIED_FROZEN,
+Results,"PRJNA862187 SCD OXPHOS NES",-0.401157678906846,results/PRJNA862187_validation/diet_specific_OXPHOS.csv,SD_SCD_minus_EC_SCD,VERIFIED_FROZEN,
+Results,"PRJNA862187 SCD OXPHOS FDR",1,results/PRJNA862187_validation/diet_specific_OXPHOS.csv,SD_SCD_minus_EC_SCD,VERIFIED_FROZEN,
+Results,"PRJNA862187 HFD OXPHOS NES",-0.789402407935295,results/PRJNA862187_validation/diet_specific_OXPHOS.csv,SD_HFD_minus_EC_HFD,VERIFIED_FROZEN,
+Results,"PRJNA862187 HFD OXPHOS FDR",0.954643628509719,results/PRJNA862187_validation/diet_specific_OXPHOS.csv,SD_HFD_minus_EC_HFD,VERIFIED_FROZEN,
+Results,"PRJNA862187 average mitochondrial-translation NES",-1.74822375281811,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,average mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"PRJNA862187 average mitochondrial-translation FDR",0.00125073848617968,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,average mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"PRJNA862187 HFD mitochondrial-translation NES",-2.25451372508358,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,HFD mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"PRJNA862187 HFD mitochondrial-translation FDR",2.14552602776767e-07,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,HFD mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"PRJNA862187 SCD mitochondrial-translation NES",0.886514132150308,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,SCD mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"PRJNA862187 SCD mitochondrial-translation FDR",0.986842105263158,results/PRJNA862187_validation/secondary_mitochondrial_pathways.csv,SCD mitochondrial translation row,VERIFIED_FROZEN,Secondary endpoint
+Results,"Interaction genes tested",17900,results/PRJNA862187_validation/edgeR_sleep_diet_interaction.csv,data rows,VERIFIED_FROZEN,
+Results,"Gene-level interactions FDR below 0.05",0,results/PRJNA862187_validation/edgeR_sleep_diet_interaction.csv,FDR count,VERIFIED_FROZEN,
+Results,"OXPHOS interaction NES",0.382421484385704,results/PRJNA862187_validation/interaction_pathways.csv,HALLMARK row,VERIFIED_FROZEN,Exploratory interaction
+Results,"OXPHOS interaction FDR",1,results/PRJNA862187_validation/interaction_pathways.csv,HALLMARK row,VERIFIED_FROZEN,Exploratory interaction
+Results,"Mitochondrial-translation interaction NES",-1.76512818334708,results/PRJNA862187_validation/interaction_pathways.csv,mitochondrial translation row,VERIFIED_FROZEN,Exploratory interaction
+Results,"Mitochondrial-translation interaction FDR",0.000732646939295522,results/PRJNA862187_validation/interaction_pathways.csv,mitochondrial translation row,VERIFIED_FROZEN,Exploratory interaction
+Results,"GSE289089 versus PRJNA1167170 Spearman rho",0.337043607054285,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 1,VERIFIED_FROZEN,
+Results,"GSE289089 versus PRJNA1167170 Spearman P",1.86338726070542e-06,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 1,VERIFIED_FROZEN,
+Results,"GSE289089 versus PRJNA862187 Spearman rho",0.0792074262882337,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 2,VERIFIED_FROZEN,
+Results,"GSE289089 versus PRJNA862187 Spearman P",0.276067942734753,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 2,VERIFIED_FROZEN,
+Results,"PRJNA1167170 versus PRJNA862187 Spearman rho",0.15392915401462,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 3,VERIFIED_FROZEN,
+Results,"PRJNA1167170 versus PRJNA862187 Spearman P",0.0321197149399428,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,pairwise row 3,VERIFIED_FROZEN,
+Results,"Hallmark OXPHOS gene-set size",195,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,hallmark_gene_set_size,VERIFIED_FROZEN,
+Results,"OXPHOS genes measurable in all three",191,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,measured_in_all_three,VERIFIED_FROZEN,
+Results,"OXPHOS genes negative in all three",82,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,negative_in_all_three,VERIFIED_FROZEN,
+Results,"Percent negative among complete genes",42.9319371727749,results/PRJNA862187_validation/three_dataset_OXPHOS_concordance_summary.csv,negative percent,VERIFIED_FROZEN,
+Results,"Two-dataset double-negative genes",138,results/manuscript_v1/manuscript_cross_dataset_results.csv,double-negative row,VERIFIED_FROZEN,
+Results,"Two-dataset double-negative percent",72.25,results/manuscript_v1/manuscript_cross_dataset_results.csv,double-negative percent,VERIFIED_FROZEN,
+Results,"ISC leading-edge genes",118,results/manuscript_v1/manuscript_cross_dataset_results.csv,ISC leading-edge row,VERIFIED_FROZEN,
+Results,"PRJNA1167170 leading-edge genes",133,results/manuscript_v1/manuscript_cross_dataset_results.csv,bulk leading-edge row,VERIFIED_FROZEN,
+Results,"Leading-edge overlap",90,results/manuscript_v1/manuscript_cross_dataset_results.csv,overlap row,VERIFIED_FROZEN,
+Results,"Leading-edge union",161,results/cross_dataset_OXPHOS/OXPHOS_leading_edge_overlap.csv,n_union,VERIFIED_FROZEN,
+Results,"Leading-edge Jaccard",0.559006211180124,results/manuscript_v1/manuscript_cross_dataset_results.csv,Jaccard row,VERIFIED_FROZEN,

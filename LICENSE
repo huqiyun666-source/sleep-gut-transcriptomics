@@ -1,0 +1,7 @@
+Dual-license notice
+
+Code in this repository, including R, Python, and shell scripts under `scripts/` and code copies under `provenance/original_scripts/`, is licensed under the MIT License. See `LICENSE-CODE-MIT.txt`.
+
+Documentation and processed result tables in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). This includes repository documentation, manuscript and provenance documents, processed CSV tables, figure-source tables, and repository-generated figure PDFs, except where a file states otherwise. See `LICENSE-DOCUMENTATION-CC-BY-4.0.md`.
+
+Public source datasets, accession metadata, third-party content, software dependencies, and materials not owned by the licensors are not relicensed. Their original terms continue to apply.

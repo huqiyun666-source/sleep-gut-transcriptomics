@@ -1,0 +1,14 @@
+software,version,status,evidence,notes
+R,4.6.1,CONFIRMED,archived session information,"R version 4.6.1 (2026-06-24)"
+Seurat,5.5.1,CONFIRMED,archived session information,
+SeuratObject,5.4.0,CONFIRMED,archived session information,
+edgeR,4.10.5,CONFIRMED,archived session information,
+fgsea,1.38.0,CONFIRMED,archived session information,
+msigdbr,26.1.1,CONFIRMED,archived session information,
+tximport,1.40.0,CONFIRMED,archived session information,
+data.table,1.18.6.1,CONFIRMED,archived session information,
+ggplot2,4.0.3,CONFIRMED,archived session information,
+Salmon,2.7.0,CONFIRMED,archived bulk-pipeline record,
+FastQC,0.12.1,CONFIRMED,archived MultiQC software-version table,
+MultiQC,1.35,CONFIRMED,archived MultiQC log,
+scDblFinder,UNKNOWN,UNAVAILABLE,contemporaneous call and provenance record,"exact package version could not be recovered"
