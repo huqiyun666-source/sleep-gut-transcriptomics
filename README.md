@@ -1,5 +1,7 @@
 # Sleep deprivation is associated with cell-type-heterogeneous suppression of intestinal oxidative-phosphorylation transcriptional programs
 
+Repository: https://github.com/huqiyun666-source/sleep-gut-transcriptomics
+
 ## Study overview
 
 This repository accompanies a transcriptomic study of intestinal responses to sleep deprivation. It preserves the frozen analysis scripts, manuscript-critical result tables, public-dataset search audit, provenance records, and final main-figure PDFs. It does not contain raw sequencing reads, reference resources, large intermediate objects, or unpublished credentials.

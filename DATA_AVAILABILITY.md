@@ -4,7 +4,7 @@ The primary data analysed in this study are publicly available under GSE289089 /
 
 This repository preparation package contains analysis code, manuscript-critical processed tables, provenance records, and figure-source mappings. Raw sequencing reads, reference genomes/transcriptomes, Salmon indices, and large intermediate analysis objects are not redistributed.
 
-The final GitHub URL and Zenodo DOI are pending and must be inserted only after those records exist:
+The repository is available at the following GitHub URL. A Zenodo DOI has not yet been assigned:
 
-- GitHub: `[GITHUB_URL]`
-- Zenodo: `[ZENODO_DOI]`
+- GitHub: https://github.com/huqiyun666-source/sleep-gut-transcriptomics
+- Zenodo DOI: pending / TO_BE_ASSIGNED

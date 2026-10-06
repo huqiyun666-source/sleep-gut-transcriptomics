@@ -24,7 +24,7 @@ authors:
     post-code: "310005"
     country: CN
     email: 20234028@zcmu.edu.cn
-# repository-code: TO_BE_COMPLETED_AFTER_GITHUB_PUBLICATION
+repository-code: "https://github.com/huqiyun666-source/sleep-gut-transcriptomics"
 # doi: TO_BE_COMPLETED_AFTER_ZENODO_ARCHIVE
 preferred-citation:
   type: article
